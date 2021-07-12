@@ -8,15 +8,16 @@ body{
 
 main{
     display:flex;
-    justify-content: center;
-    /* flex-direction: column; */
+    flex-direction: column;
+    align-items: center;
 }
 
 .container{
     background-color: white;
     width: 870px;
     padding: 33px 30px 42px;
-
+    border-radius: 5px;
+    margin-top: 21px;
 }
 .top-players{
     margin-bottom: 30px;
@@ -50,6 +51,7 @@ main{
 
 hr{
     border: 1px solid #d1d1d1;
+    margin-bottom: 27px;
 }
 
 /* ------------------
@@ -80,4 +82,23 @@ hr{
     color:#562EFF;
     text-decoration: none;
     font-size: 16px;
+}
+
+/* ------------------
+   Latest Courses Styles 
+---------------------*/
+
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+}
+.fa-star{font-size: 12px;}
+.fa-star.filled{
+    color:#FFC014;  
+}
+.fa-star.empty{
+    color:#AEAEAE;  
 }
